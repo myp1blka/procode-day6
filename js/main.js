@@ -12,6 +12,7 @@ const run = (ev) => {
 
     // почему не работает такая конструкция
     //elStatus.insertAdjacentHTML('beforeend', 'Привіт, ' , elFirstName.value, elSecondName.value);
+    
     elStatus.insertAdjacentHTML('beforeend', result);
 }
 
